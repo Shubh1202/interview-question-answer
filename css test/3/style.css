@@ -1,0 +1,8 @@
+p:hover{
+    letter-spacing: 10px;
+    transition: 2s ease-in;
+} 
+p{
+    letter-spacing: normal;
+    transition:2s ease-out;
+}

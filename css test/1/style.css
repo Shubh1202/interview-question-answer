@@ -1,0 +1,13 @@
+.animate_div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.animate_div:hover{
+    animation: animate 5s;
+}
+@keyframes animate{
+    from{border-radius:0}
+    to{border-radius:100%};
+
+}
